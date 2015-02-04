@@ -12,28 +12,28 @@ Currently there are 16 smooth floor tiles in every size from 1x1 to 4x4.
 
 <table>
 <tr>
-  <td><a href="smooth_floor_1x1.stl"><img src="images/1x1.stl"></a></td>
-  <td><a href="smooth_floor_1x2.stl"><img src="images/1x2.stl"></a></td>
-  <td><a href="smooth_floor_1x3.stl"><img src="images/1x3.stl"></a></td>
-  <td><a href="smooth_floor_1x4.stl"><img src="images/1x4.stl"></a></td>
+  <td><a href="smooth_floor_1x1.stl"><img src="images/1x1.png"></a></td>
+  <td><a href="smooth_floor_1x2.stl"><img src="images/1x2.png"></a></td>
+  <td><a href="smooth_floor_1x3.stl"><img src="images/1x3.png"></a></td>
+  <td><a href="smooth_floor_1x4.stl"><img src="images/1x4.png"></a></td>
 </tr>
 <tr>
-  <td><a href="smooth_floor_2x1.stl"><img src="images/2x1.stl"></a></td>
-  <td><a href="smooth_floor_2x2.stl"><img src="images/2x2.stl"></a></td>
-  <td><a href="smooth_floor_2x3.stl"><img src="images/2x3.stl"></a></td>
-  <td><a href="smooth_floor_2x4.stl"><img src="images/2x4.stl"></a></td>
+  <td><a href="smooth_floor_2x1.stl"><img src="images/2x1.png"></a></td>
+  <td><a href="smooth_floor_2x2.stl"><img src="images/2x2.png"></a></td>
+  <td><a href="smooth_floor_2x3.stl"><img src="images/2x3.png"></a></td>
+  <td><a href="smooth_floor_2x4.stl"><img src="images/2x4.png"></a></td>
 </tr>
 <tr>
-  <td><a href="smooth_floor_3x1.stl"><img src="images/3x1.stl"></a></td>
-  <td><a href="smooth_floor_3x2.stl"><img src="images/3x2.stl"></a></td>
-  <td><a href="smooth_floor_3x3.stl"><img src="images/3x3.stl"></a></td>
-  <td><a href="smooth_floor_3x4.stl"><img src="images/3x4.stl"></a></td>
+  <td><a href="smooth_floor_3x1.stl"><img src="images/3x1.png"></a></td>
+  <td><a href="smooth_floor_3x2.stl"><img src="images/3x2.png"></a></td>
+  <td><a href="smooth_floor_3x3.stl"><img src="images/3x3.png"></a></td>
+  <td><a href="smooth_floor_3x4.stl"><img src="images/3x4.png"></a></td>
 </tr>
 <tr>
-  <td><a href="smooth_floor_4x1.stl"><img src="images/4x1.stl"></a></td>
-  <td><a href="smooth_floor_4x2.stl"><img src="images/4x2.stl"></a></td>
-  <td><a href="smooth_floor_4x3.stl"><img src="images/4x3.stl"></a></td>
-  <td><a href="smooth_floor_4x4.stl"><img src="images/4x4.stl"></a></td>
+  <td><a href="smooth_floor_4x1.stl"><img src="images/4x1.png"></a></td>
+  <td><a href="smooth_floor_4x2.stl"><img src="images/4x2.png"></a></td>
+  <td><a href="smooth_floor_4x3.stl"><img src="images/4x3.png"></a></td>
+  <td><a href="smooth_floor_4x4.stl"><img src="images/4x4.png"></a></td>
 </tr>
 </table>
 
