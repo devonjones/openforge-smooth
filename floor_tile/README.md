@@ -1,14 +1,13 @@
 Floor tiles
 ===========
 
-Dungeon floor tiles designed to be compatible with Dwarven Forge dungeon tiles.
+Smooth floor tiles designed to be compatible with Dwarven Forge dungeon tiles.
 
 I've created the smooth set as a way of designing the basic form of the tiles that I intend for all other sets.  These tiles can be used as concrete, dirt, ice, or painted to really be any type of tile, as they have no printed decoration.
 
+This set has been upgraded to [OpenForge 2.0](https://github.com/devonjones/OpenForge).
 Smooth
 ------
-
-Currently there are 16 smooth floor tiles in every size from 1x1 to 4x4.
 
 <table>
 <tr>
