@@ -10,7 +10,6 @@ This set has been upgraded to [OpenForge 2.0](https://github.com/devonjones/Open
 Smooth
 ------
 
-
 <table>
 <tr>
   <td><a href="smooth_edge_wall_1x1.stl"><img src="images/1x1.png"></a></td>
