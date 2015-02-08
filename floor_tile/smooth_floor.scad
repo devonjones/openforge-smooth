@@ -23,4 +23,4 @@ module smooth_floor(x, y, l=0, r=0, f=0, b=0) {
   }
 }
 
-//smooth_floor(2,2,f=9.2, b=9.2);
+//smooth_floor(2,2,r=9.2,l=9.2,b=9.2);
