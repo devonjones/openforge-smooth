@@ -1,4 +1,4 @@
-Corridor tiles
+Edge Corridor tiles
 ==============
 
 Smooth edge corridor tiles designed to be compatible with Dwarven Forge dungeon tiles.
@@ -9,8 +9,6 @@ This set has been upgraded to [OpenForge 2.0](https://github.com/devonjones/Open
 
 Smooth
 ------
-
-Currently there are 16 smooth edge corridor tiles in every size from 1x1 to 4x4.
 
 <table>
 <tr>

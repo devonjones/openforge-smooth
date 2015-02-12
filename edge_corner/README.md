@@ -1,5 +1,5 @@
-Corner tiles
-============
+Edge Corner tiles
+=================
 
 Smooth edge corner tiles designed to be compatible with Dwarven Forge dungeon tiles.
 

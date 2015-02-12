@@ -1,5 +1,5 @@
-Dead end tiles
-==============
+Edge Dead end tiles
+===================
 
 Smooth edge dead end tiles designed to be compatible with Dwarven Forge dungeon tiles.
 

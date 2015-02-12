@@ -1,7 +1,7 @@
-Wall tiles
-===========
+Edge Wall tiles
+===============
 
-Smooth wall tiles designed to be compatible with Dwarven Forge dungeon tiles.
+Smooth edge wall tiles designed to be compatible with Dwarven Forge dungeon tiles.
 
 I've created the smooth set as a way of designing the basic form of the tiles that I intend for all other sets.  These tiles can be used as concrete, ice, dirt, or painted to really be any type of tile, as they have no printed decoration.
 
