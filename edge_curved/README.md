@@ -64,5 +64,9 @@ Smooth
 </tr>
 </table>
 
+![2x2, 2x4 & 4x2 curved walls](images/IMG_7754.JPG)
+![2x2 curved wall with half tile](images/IMG_7800.JPG)
+![2x2 curved wall and half tile](images/IMG_7801.JPG)
+
 You can find this set on [thingivese](http://www.thingiverse.com/thing:237786)
 
