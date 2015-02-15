@@ -1,6 +1,6 @@
 include <../floor_tile/smooth_floor.scad>
 
-module smooth_edge_curved(x,y) {
+module smooth_edge_curved(x,y,right=false,left=false) {
   difference() {
     union() {
       intersection() {
@@ -27,10 +27,21 @@ module smooth_edge_curved(x,y) {
         }
       }
     }
-    frame_curve_negative(x, y, b=9.2);
+    if(left || right) {
+      frame_curve_negative(x,y);
+    }
+    else {
+      frame_curve_negative(x, y, b=9.2);
+    }
+    if(left) {
+      translate([0,25*y,-1]) rotate([0,0,45]) cube([20,20,55]);
+    }
+    if(right) {
+      translate([25*x,0,-1]) rotate([0,0,45]) mirror([0,1,0]) cube([20,20,55]);
+    }
   }
 }
-//smooth_edge_curved(4,4);
+//smooth_edge_curved(2,2,right=false,left=false);
 
 module smooth_edge_curved_half_floor(x,y) {
   difference() {
