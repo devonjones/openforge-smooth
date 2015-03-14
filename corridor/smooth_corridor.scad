@@ -12,4 +12,10 @@ module smooth_corridor(x,y) {
   }
 }
 
-//smooth_corridor(4,4);
+render=false;
+x=2;
+y=2;
+
+if (render) {
+  smooth_corridor(x,y);
+}
