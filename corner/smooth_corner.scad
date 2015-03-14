@@ -12,4 +12,10 @@ module smooth_corner(x,y) {
   }
 }
 
-//smooth_corner(4,4);
+render=false;
+x=2;
+y=2;
+
+if (render) {
+  smooth_corner(x,y);
+}
