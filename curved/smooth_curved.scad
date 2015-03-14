@@ -45,6 +45,6 @@ y=2;
 
 if (render) {
   smooth_curved(x,y);
-} else if (render) {
+} else if (render_floor) {
   smooth_curved_floor(x,y);
 }
