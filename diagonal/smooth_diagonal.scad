@@ -17,7 +17,13 @@ module smooth_diagonal(x) {
   }
 }
 
-//smooth_diagonal(4);
+render_diagonal=false;
+x=2;
+
+if (render) {
+  smooth_diagonal(x);
+}
+
 
 module smooth_diagonal_half_floor(x) {
   difference() {
@@ -28,3 +34,10 @@ module smooth_diagonal_half_floor(x) {
 }
 
 //smooth_diagonal_half_floor(2);
+
+render_diagonal_half_floor=false;
+x=2;
+
+if (render) {
+  smooth_diagonal_half_floor(x);
+}
