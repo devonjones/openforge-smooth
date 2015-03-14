@@ -11,4 +11,10 @@ module smooth_wall(x,y) {
   }
 }
 
-//smooth_wall(4,4);
+render=false;
+x=2;
+y=2;
+
+if (render) {
+  smooth_wall(x,y);
+}
