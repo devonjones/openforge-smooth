@@ -25,4 +25,10 @@ module smooth_floor(x, y, l=0, r=0, f=0, b=0, negative=true) {
   }
 }
 
-//smooth_floor(2,2,r=9.2,l=9.2,b=9.2);
+render=false;
+x=2;
+y=2;
+
+if (render) {
+  smooth_floor(x,y);
+}
