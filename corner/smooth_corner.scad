@@ -15,7 +15,10 @@ module smooth_corner(x,y) {
 render=false;
 x=2;
 y=2;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e5bbc3f678b2957dd59b530d6e4972b47c69ba9
 if (render) {
   smooth_corner(x,y);
 }
