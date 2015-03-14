@@ -14,4 +14,10 @@ module smooth_dead_end(x,y) {
   }
 }
 
-//smooth_dead_end(4,4);
+render=false;
+x=2;
+y=2;
+
+if (render) {
+  smooth_dead_end(x,y);
+}
