@@ -22,4 +22,12 @@ module smooth_edge_corner(x,y,right=false,left=false) {
   }
 }
 
-//smooth_edge_corner(2,2,right=true,left=false);
+render=false;
+x=2;
+y=2;
+right=false;
+left=false;
+
+if (render) {
+  smooth_edge_corner(x,y,right=right,left=left);
+}
