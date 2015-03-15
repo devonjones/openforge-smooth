@@ -34,8 +34,6 @@ module smooth_edge_diagonal(x,right=false,left=false,right_sharp=false,left_shar
   }
 }
 
-//smooth_edge_diagonal(2,right=false,left=false,right_sharp=false,left_sharp=false);
-
 module smooth_diagonal_half_floor(x) {
   difference() {
     union() {
@@ -44,9 +42,25 @@ module smooth_diagonal_half_floor(x) {
       translate([0,25*x,0]) cube([25*x+9.2,9.2,9.5]);
     }
 
-    translate([25*x,0,-1]) rotate([0,0,45]) translate([0,-sqrt(169.28)/2,0]) cube([sqrt(42.32)+1,sqrt(((x*25+9.2)*(x*25+9.2)*2)),20]);
+    translate([25*x,0,-1]) rotate([0,0,45]) translate([0,-sqrt(169.28)/2-1,0]) cube([sqrt(42.32)+1,sqrt(((x*25+9.2)*(x*25+9.2)*2))+2,20]);
     rotate([0,0,45]) translate([0,-25*x,-1]) cube([sqrt(x*25*x*25*2)/2+1,200,20]);
   }
 }
 
-//smooth_diagonal_half_floor(4);
+render=false;
+render_floor=true;
+x=4;
+right=false;
+left=false;
+right_sharp=false;
+left_sharp=false;
+
+if (render) {
+  smooth_edge_diagonal(x,
+    right=right,
+    left=left,
+    right_sharp=right_sharp,
+    left_sharp=left_sharp);
+} else if (render_floor) {
+  smooth_diagonal_half_floor(x);
+}
