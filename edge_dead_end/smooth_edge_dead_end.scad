@@ -23,4 +23,14 @@ module smooth_edge_dead_end(x,y,right=false,left=false) {
   }
 }
 
-//smooth_edge_dead_end(2,2,right=false,left=false);
+render=true;
+x=2;
+y=2;
+right=false;
+left=false;
+
+if (render) {
+  smooth_edge_dead_end(x,y,
+    right=right,
+    left=left);
+}
