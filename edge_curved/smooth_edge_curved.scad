@@ -41,7 +41,6 @@ module smooth_edge_curved(x,y,right=false,left=false) {
     }
   }
 }
-//smooth_edge_curved(2,2,right=false,left=false);
 
 module smooth_edge_curved_half_floor(x,y) {
   difference() {
@@ -54,4 +53,15 @@ module smooth_edge_curved_half_floor(x,y) {
   }
 }
 
-//smooth_edge_curved_half_floor(2,2);
+render=false;
+render_floor=false;
+x=2;
+y=2;
+right=false;
+left=false;
+
+if (render) {
+  smooth_edge_curved(x,y,right=right,left=left);
+} else if (render_floor) {
+  smooth_edge_curved_half_floor(x,y);
+}
