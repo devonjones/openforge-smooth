@@ -28,4 +28,18 @@ module smooth_edge_corridor(x,y,right_front=false,left_front=false,right_back=fa
   }
 }
 
-smooth_edge_corridor(2,2,right_front=true,left_front=true,right_back=true,left_back=true);
+render=true;
+x=2;
+y=2;
+right_front=false;
+left_front=false;
+right_back=false;
+left_back=false;
+
+if (render) {
+  smooth_edge_corridor(x,y,
+    right_front=right_front,
+    left_front=left_front,
+    right_back=right_back,
+    left_back=left_back);
+}
