@@ -29,7 +29,7 @@ do
     smooth_edge_diagonal.scad
 
   $OPENSCAD -o smooth_edge_diagonal_${x}x${x}_adapter_sharp_both.stl \
-    -D 'render=true' -D "x=$x"
+    -D 'render=true' -D "x=$x" \
     -D "right_sharp=true" -D "left_sharp=true" \
     smooth_edge_diagonal.scad
 
