@@ -21,4 +21,14 @@ module smooth_edge_wall(x,y,right=false,left=false) {
   }
 }
 
-//smooth_edge_wall(2,2,right=true,left=false);
+render=true;
+x=2;
+y=2;
+right=false;
+left=false;
+
+if (render) {
+  smooth_edge_wall(x,y,
+    right=right,
+    left=left);
+}
