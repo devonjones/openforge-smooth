@@ -23,7 +23,7 @@ module smooth_edge_dead_end(x,y,right=false,left=false) {
   }
 }
 
-render=true;
+render=false;
 x=2;
 y=2;
 right=false;

@@ -28,7 +28,7 @@ module smooth_edge_corridor(x,y,right_front=false,left_front=false,right_back=fa
   }
 }
 
-render=true;
+render=false;
 x=2;
 y=2;
 right_front=false;

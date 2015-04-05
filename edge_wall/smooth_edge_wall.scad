@@ -21,7 +21,7 @@ module smooth_edge_wall(x,y,right=false,left=false) {
   }
 }
 
-render=true;
+render=false;
 x=2;
 y=2;
 right=false;
